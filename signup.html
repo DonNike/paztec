@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sign-Up</title>
+	<link rel="stylesheet" href="signup.css">
+	<link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+	<div class="circ">
+		<div class="circle">
+		<a href="dashboard.html" style="text-decoration: none;"><i class="fa-solid fa-arrow-left-long" style="font-size: 30px;"></i></a>
+	</div>
+	<div class="container">
+		<form action="" method="post">
+			<h2>Registration</h2>
+			<div class="content">
+				<div class="input-box">
+					<label for="name">Full Name</label>
+					<input type="text" name="name" placeholder="Enter your full name" required>
+				</div>
+				<div class="input-box">
+					<label for="name">Username</label>
+					<input type="text" name="uname" placeholder="Enter your username" required>
+				</div>
+				<div class="input-box">
+					<label for="email">Email</label>
+					<input type="email" name="email" placeholder="Enter your valid email address" required>
+				</div>
+				<div class="input-box">
+					<label for="phone">Phone Number</label>
+					<input type="tel" name="phone" placeholder="Enter your phone number" required>
+				</div>
+				<div class="input-box">
+					<label for="password">Password</label>
+					<input type="password" name="password" placeholder="Enter your new password" required>
+				</div>
+				<div class="input-box">
+					<label for="password">Confirm Password</label>
+					<input type="password" name="confirmpassword" placeholder="Confirm your password" required>
+				</div>
+			
+				<span class="gender-title">Gender</span>
+				<div class="gender-category">
+					<input type="radio" name="gender" id="male">
+					<label for="male">Male</label>
+					<input type="radio" name="gender" id="female">
+					<label for="female">Female</label>
+					<input type="radio" name="gender" id="other">
+					<label for="other">Other</label>
+				</div>
+			</div>
+			<div class="alert">
+				<p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive notifications from us and can opt out at any time.</p>
+			</div>
+			<div class="button-container">
+				<button type="submit">Register</button>
+			</div>
+			<div class="sent">
+				<p>Already have an account? <a href="form.html">Sign-In</a> </p> 
+			</div>
+		</form>
+	</div>
+</body>
+</html>
+
